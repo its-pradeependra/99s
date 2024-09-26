@@ -10,7 +10,7 @@ import {
 
 
 export default function EventView() {
-
+    
     SwiperCore.use([Navigation]);
     const [event, setEvent] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -141,11 +141,11 @@ export default function EventView() {
 
                     <div className="max-w-4xl mx-auto p-10 text-center gap-4 bg-gray-300 bg-opacity-60 shadow-lg backdrop-blur-sm rounded-xl bg-white/30 font-normal text-base leading-6 text-gray-600 flex flex-col justify-center items-center *:">
                         <div>
-                            <span className='font-semibold text-black text-center'>Description - </span>
+                            {/* <span className='font-semibold text-black text-center'>Description - </span> */}
                             {event.description}
                         </div>
                         <div className="flex  items-center">
-                            <p className='font-semibold text-black pt-5 mr-6'>Follow Us To get updated -</p>
+                            <p className='font-semibold text-black pt-5 mr-6'>Follow Us to get updated </p>
                             <div className='flex mt-4 space-x-6 '>
                                 <a href="https://x.com/99sIndiaSection?t=q9EJ4RhxzA2q_4c8izPQkg&s=09" target="_blank" className="w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#33CCFF] hover:bg-gray-900">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
