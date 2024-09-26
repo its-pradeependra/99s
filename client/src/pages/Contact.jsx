@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
@@ -66,7 +65,7 @@ export default function Contact() {
                     <h5 id='quote' className='text-md font-bold text-center'>
                         Inspiring women pilots since 1976. <br />
                         Celebrate History, Raise Awareness, Spark Vocations. <br />
-                        If Ican fly, You can fly.
+                        If I can fly, You can fly.
                     </h5>
                     <a href="mailto:indiasection99s@gmail.com" className="px-10 flex items-center">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">

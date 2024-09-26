@@ -5,15 +5,14 @@ export default function Donate() {
       <div id="contact">
         {/* Page heading and subheading */}
         <div className="mx-auto max-w-4xl space-y-4 text-center">
-          <h2 className="font-semibold text-3xl sm:text-5xl">
-            Fueling Dreams with{" "}
-            <span className="text-blue-800">India 99s Power</span>
+          <h2 className="font-semibold text-3xl sm:text-5xl text-blue-800">
+            Empowering Women to Soar
           </h2>
 
           <h3 className="sm:text-lg text-center leading-relaxed">
             Our Charitable Trust is engaged in activities related to Aviation education and
             awareness. We strive to undertake strictly educational, charitable and/or
-            scientific activities in alignment with The Ninety-Nines, Inc.
+            scientific activities in alignment with <br className="hidden lg:block"/> The Ninety-Nines, Inc.
             Our endeavour is to build a corpus so that we may be able to provide
             scholarships and support young girls in their journey to become pilots.
           </h3>
@@ -23,7 +22,7 @@ export default function Donate() {
           {/* Bank Detail ----start  */}
           <div className="w-auto h-auto lg:p-6 p-4 bg-gray-300 bg-opacity-60 shadow-lg px-12  backdrop-blur-sm rounded-xl bg-white/30">
             <h2 className="text-2xl font-bold mb-4 text-black">
-              Bank Account & G-Pay Details
+              Bank Account & GPay Details
             </h2>
             <div className="text-gray-800 px-5">
               <div className="mb-2">
@@ -52,7 +51,7 @@ export default function Donate() {
           {/* Bank Detail ----end  */}
           <div className="w-auto h-auto lg:p-10 p-6 bg-gray-300 bg-opacity-60 shadow-lg backdrop-blur-sm rounded-xl bg-white/30 flex flex-col gap-2">
             <h2 className=" text-lg font-semibold mb-5"><span className="font-bold text-blue-800">For Cheque: </span>Cheques should be drawn in favour of: <br /> India Section Ninety-Nines</h2>
-            <h2 className="text-lg font-semibold"><span className="font-bold text-blue-800">NOTE:  </span> Donations to India Section Ninety-Nines are exempted under section 80G of IT Act 1961</h2><br />
+            <h2 className="text-lg font-semibold"><span className="font-bold text-blue-800">NOTE:  </span> Donations to India Section Ninety-Nines are exempt under section 80G of IT Act 1961</h2><br />
             <p>The INDIA SECTION NINETY-NINES Trust was registered in September 2022,  under Section
               12A and 80G of IT Act 1961 (12A Registration No. AACTI1005RE20221; 80G Registration No.
               AACTI1005RF20221).</p>

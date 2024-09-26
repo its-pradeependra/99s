@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
@@ -35,7 +34,7 @@ export default function Member() {
             id: 1,
             name: "Nivedita Jain Bhasin",
             avatar: 'https://firebasestorage.googleapis.com/v0/b/fir-india-77ae4.appspot.com/o/Slider%2FSection%20Menbers%2Fnivedeta.jpg?alt=media&token=e35a8779-900a-4ddc-907e-f7efcc946be9',
-            tag: "Governor, Int'l Director, Life Member and Section Membership Chairman"
+            tag: "Governor, International Director, Life Member and Section Membership Chairman"
         },
         {
             id: 2,
