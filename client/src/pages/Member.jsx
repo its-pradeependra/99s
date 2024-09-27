@@ -138,7 +138,12 @@ export default function Member() {
                             members.map((member) => (
                                 <Link to={`/member/${member._id}`} key={member._id}>
                                     <div className="flex gap-2 flex-col justify-between rounded-md p-6 items-center">
-                                        <img className="h-40 w-40 rounded-full  transition-all ease-in-out duration-500 cursor-pointer object-cover" src={member.avatar} alt={member.name} />
+                                        {/* <img className="h-40 w-40 rounded-full  transition-all ease-in-out duration-500 cursor-pointer object-cover border-2 border-black" src={member.avatar} alt={member.name} /> */}
+                                        <img
+                    className='h-40 w-40 rounded-full cursor-pointer object-contain object-center border-2 bg-gray-400'
+                    src={member.avatar}
+                    alt={member.name}
+                  />
 
                                         <div className="space-y-1">
                                             <h3 className="font-bold text-center">{member.name}</h3>

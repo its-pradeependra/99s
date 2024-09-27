@@ -141,7 +141,6 @@ export default function About() {
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
 
           <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-            {/* <h2 className=" text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4  tracking-tight  ">Our Charter Members </h2> */}
             <h2 className=" font-semibold text-3xl sm:text-2xl leading-9 text-gray-800 md:text-5xl">Our Charter Members</h2>
             <p className="font-normal text-base leading-6 text-gray-600">Their vision and dedication continue to inspire generations of women aviators</p>
             <div className="text-center mb-10">
@@ -154,19 +153,26 @@ export default function About() {
           </div>
 
           <div className="grid gap-8 mb-6 md:grid-cols-3">
-            {
-              charter_members.map((member) => (
-
-                <div key={member.id} className="w-full flex flex-col justify-center items-center">
-                  <img className="rounded-full w-48 h-48 object-contain border-2 border-black" src={member.avatar} alt={member.name} />
-                  <div className="p-5 text-center">
-                    <h3 className="text-xl font-bold tracking-tight text-gray-900 ">{member.name}</h3>
-                    <p></p>
-                  </div>
+          {charter_members.map(member => (
+              <div
+                key={member.id}
+                className='w-full flex flex-col justify-center items-center'
+              >
+                <div className='rounded-full bg-gray-700 w-48 h-48'>
+                  <img
+                    className='rounded-full w-48 h-48 object-contain border-2 border-black'
+                    src={member.avatar}
+                    alt={member.name}
+                  />
                 </div>
-
-              ))
-            }
+                <div className='p-5 text-center'>
+                  <h3 className='text-xl font-bold tracking-tight text-gray-900 '>
+                    {member.name}
+                  </h3>
+                  <p></p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
