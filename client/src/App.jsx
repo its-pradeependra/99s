@@ -20,7 +20,58 @@ export default function App() {
   return (
     <Router>
       <Suspense fallback={<div className="flex items-center justify-center min-h-screen">
-              <img className="w-40 h-40 animate-spin" src="https://www.svgrepo.com/show/70469/loading.svg" alt="Loading icon" />
+        {/* <img className="w-40 h-40 animate-spin" src="https://www.svgrepo.com/show/70469/loading.svg" alt="Loading icon" /> */}
+        <svg width='200' height='200' fill='#f6640f' viewBox='0 0 24 24'>
+        <g className='spinner_OSmW'>
+          <rect x='11' y='1' width='2' height='5' opacity='.14' />
+          <rect
+            x='11'
+            y='1'
+            width='2'
+            height='5'
+            transform='rotate(30 12 12)'
+            opacity='.29'
+          />
+          <rect
+            x='11'
+            y='1'
+            width='2'
+            height='5'
+            transform='rotate(60 12 12)'
+            opacity='.43'
+          />
+          <rect
+            x='11'
+            y='1'
+            width='2'
+            transform='rotate(90 12 12)'
+            opacity='.57'
+          />
+          <rect
+            x='11'
+            y='1'
+            width='2'
+            height='5'
+            transform='rotate(120 12 12)'
+            opacity='.71'
+          />
+          <rect
+            x='11'
+            y='1'
+            width='2'
+            radius='5'
+            transform='rotate(150 12 12)'
+            opacity='.86'
+          />
+          <rect
+            x='11'
+            y='1'
+            width='2'
+            radius='5'
+            transform='rotate(180 12 12)'
+          />
+        </g>
+      </svg>
       </div>}>
         <ScrollToTop />
         <Header />

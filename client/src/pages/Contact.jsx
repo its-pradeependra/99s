@@ -18,23 +18,27 @@ export default function Contact () {
     setDisableBtn(true)
 
     try {
-      toast.success('Thank You, We will reach you soon.')
-      setDisableBtn(false)
-
-      setName('')
-      setMessage('')
-      setNumber('')
-      setEmail('')
       await addDoc(collection(formDatabase, 'contacts'), {
         name,
         email,
         number,
         message
       })
+
+      toast.success('Thank You, We will reach you soon.')
+
+      setName('')
+      setMessage('')
+      setNumber('')
+      setEmail('')
+      setDisableBtn(false)
+
       navigate('/')
     } catch (error) {
       toast.error('Error in Submission. Please try again.')
       console.error('Submission error:', error)
+
+      setDisableBtn(false)
     }
   }
 
@@ -64,8 +68,9 @@ export default function Contact () {
       </div>
 
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  grid md:grid-cols-2 lg:grid-cols-2 gap-y-8 md:gap-x-8 md:gap-y-8 lg:gap-x-8 lg:gap-y-16'>
-        {/* Box With Logo & social links ----start */}
-        <div className='lg:w-[80%] py-10 sm:py-5 w-auto h-auto bg-gray-300 bg-opacity-60 shadow-lg mx-auto backdrop-blur-sm rounded-xl bg-white/30 flex flex-col justify-center gap-5'>
+        
+{/* Box With Logo & social links ----start */}
+<div className='lg:w-[80%] py-10 sm:py-5 w-auto h-auto bg-gray-300 bg-opacity-60 shadow-lg mx-auto backdrop-blur-sm rounded-xl bg-white/30 flex flex-col justify-center gap-5'>
           <img
             src={
               'https://firebasestorage.googleapis.com/v0/b/fir-india-77ae4.appspot.com/o/WebMaterial%2FheaderImg.png?alt=media&token=096586ea-31e3-495b-b3ee-be00526d5721'
@@ -197,7 +202,7 @@ export default function Contact () {
           </div>
         </div>
         {/* Box With Logo & social links ----end */}
-
+        
         {/* Contact-us form ----start  */}
         <div className='lg:w-[80%] w-auto h-auto px-10 py-5 bg-gray-300 bg-opacity-60 shadow-lg backdrop-blur-sm rounded-xl bg-white/30'>
           <h1 className='text-xl font-semibold text-center my-5'>

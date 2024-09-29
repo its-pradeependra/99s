@@ -1,15 +1,10 @@
+import Feedback from '../components/Feedback'
+import NewsAndEvents from '../components/NewsAndEvents'
+import Slider from '../components/Slider'
 
-
-import Feedback from "../components/Feedback";
-import NewsAndEvents from "../components/NewsAndEvents";
-import Slider from "../components/Slider";
-// import flag from '../assets/textImg.png'
-
-export default function Home() {
-
-
+export default function Home () {
   return (
-    <div className="pt-[10%]">
+    <div className='pt-[10%]'>
       {/* <----News & Event card-----> */}
       <Slider />
 
@@ -18,7 +13,6 @@ export default function Home() {
 
       {/* <----Testimonail-----> */}
       <Feedback />
-
     </div>
   )
 }

@@ -8,43 +8,85 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .line-clamp-2 {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .body {
-    font-family: "Poppins", sans-serif !important;
-    font-weight: 300 !important;
-    font-style: normal;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.591)),
-        url('https://firebasestorage.googleapis.com/v0/b/fir-india-77ae4.appspot.com/o/WebMaterial%2Fbody-bg-img.png?alt=media&token=40ebea1c-c092-4ddb-ae7a-5d95a38b5bf1');
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 300 !important;
+  font-style: normal;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.591)),
+    url('https://firebasestorage.googleapis.com/v0/b/fir-india-77ae4.appspot.com/o/WebMaterial%2Fbody-bg-img.png?alt=media&token=40ebea1c-c092-4ddb-ae7a-5d95a38b5bf1');
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #quote {
-    font-family: "Gowun Batang", serif;
-    font-weight: 700;
-    font-style: italic;
-
+  font-family: 'Gowun Batang', serif;
+  font-weight: 700;
+  /* font-style: italic; */
 }
 
 #marquee {
-    font-family: "Allura", system-ui;
-    font-size: 2rem;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 2px;
-    word-spacing: 0.5rem;
+  font-family: 'Allura', system-ui;
+  font-size: 2rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  word-spacing: 0.5rem;
+}
+
+.spinner_OSmW {
+  transform-origin: center;
+  animation: spinner 0.75s step-end infinite;
+}
+@keyframes spinner {
+  8.3% {
+    transform: rotate(30deg);
+  }
+  16.6% {
+    transform: rotate(60deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  33.3% {
+    transform: rotate(120deg);
+  }
+  41.6% {
+    transform: rotate(150deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  58.3% {
+    transform: rotate(210deg);
+  }
+  66.6% {
+    transform: rotate(240deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  83.3% {
+    transform: rotate(300deg);
+  }
+  91.6% {
+    transform: rotate(330deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
