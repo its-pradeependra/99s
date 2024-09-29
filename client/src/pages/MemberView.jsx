@@ -55,8 +55,7 @@ export default function MemberView() {
                 </h2>
                 {
                     member.tag && (
-
-                        <h1 className="text-lg md:text-lg  font-medium  ">
+                        <h1 className="text-lg md:text-lg font-medium w-[%] ">
                             {member.tag}
                         </h1>
                     )
@@ -97,7 +96,6 @@ export default function MemberView() {
                 </p>
             )}
             {openModal && (
-                // <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-40"  onClick={handleCloseModal}>
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
                     <button onClick={handleCloseModal} className="absolute top-4 right-4 text-white text-2xl  cursor-pointer opacity-70 z-50 hover:opacity-100 ">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-10">

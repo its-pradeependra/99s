@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/learning-curve-bv');
-@import url('https://fonts.cdnfonts.com/css/honey-script');
-@import url('https://fonts.cdnfonts.com/css/variane-script');
-@import url('https://fonts.cdnfonts.com/css/blenda-script');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -44,16 +40,11 @@
 }
 
 #marquee {
- /*   font-family: "Alex Brush", system-ui;
-    font-family: "Dancing Script", cursive;
-    font-family: 'Learning Curve', sans-serif;
-    font-family: 'Honey Script', sans-serif; 
-    font-family: 'Blenda Script', sans-serif;                                          
-    font-family: 'Variane Script', sans-serif; */
     font-family: "Allura", system-ui;
     font-size: 2rem;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
+    word-spacing: 0.5rem;
 }

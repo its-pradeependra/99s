@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
@@ -37,7 +35,7 @@ export default function Footer() {
                         {/* <!--End Col--> */}
                         <div className="lg:mx-auto text-left p-2 ">
                             <h4 className="text-lg text-gray-900 font-medium mb-4">Donate</h4>
-                            <p className="text-sm text-gray-500 leading-6 mb-7">Donate To make a "Smile".....</p>
+                            <p className="text-sm text-gray-500 leading-6 mb-7">Empower Women to Soar</p>
                             <Link to="/donate" className="flex items-center justify-center gap-2 border border-blue-800 rounded-full py-3 px-6 w-fit lg:mx-0  text-sm text-blue-800 font-semibold transition-all duration-500 hover:bg-blue-100">Donate<svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.25 6L13.25 6M9.5 10.5L13.4697 6.53033C13.7197 6.28033 13.8447 6.15533 13.8447 6C13.8447 5.84467 13.7197 5.71967 13.4697 5.46967L9.5 1.5" stroke="#1565c0" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
@@ -47,7 +45,7 @@ export default function Footer() {
                     {/* <!--Grid--> */}
                     <div className="py-3 border-t border-gray-200">
                         <div className="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-                            <span className="text-sm text-gray-500 ">©<a href="https://pagedone.io/">NinetyNine</a> 2024, All rights reserved.</span>
+                            <span className="text-sm text-gray-500 ">©️<a href="https://pagedone.io/"> Ninety-Nines</a> 2024. All rights reserved.</span>
                             <div className="flex mt-4 space-x-4 sm:justify-center lg:mt-0 ">
                                 <a href="https://x.com/99sIndiaSection?t=q9EJ4RhxzA2q_4c8izPQkg&s=09" target="_blank" className="w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#33CCFF] hover:bg-gray-900">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
