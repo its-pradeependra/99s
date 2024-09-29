@@ -206,7 +206,7 @@ export default function Header () {
       <Dialog
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
-        className='lg:hidden'
+        className='lg:hidden z-50'
       >
         <div className='fixed inset-0 z-10' />
         <DialogPanel className='fixed inset-y-0 right-0 z-10 sm:pt-[25%] pt-[40%] md:pt-[20%] w-full overflow-y-scroll bg-white px-6 py-6 sm:max-w-[15rem] sm:ring-1 sm:ring-gray-900/10'>
