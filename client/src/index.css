@@ -11,6 +11,18 @@
   display: none;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -92,3 +104,4 @@
     transform: rotate(360deg);
   }
 }
+

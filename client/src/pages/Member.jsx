@@ -181,7 +181,6 @@ export default function Member () {
             {members.map(member => (
               <Link to={`/member/${member._id}`} key={member._id}>
                 <div className='flex gap-2 flex-col justify-between rounded-md p-6 items-center'>
-                  {/* <img className="h-40 w-40 rounded-full  transition-all ease-in-out duration-500 cursor-pointer object-cover border-2 border-black" src={member.avatar} alt={member.name} /> */}
                   <img
                     className='h-40 w-40 rounded-full cursor-pointer object-contain object-center border-2 bg-gray-400'
                     src={member.avatar}
@@ -215,7 +214,7 @@ export default function Member () {
               created to support the 99s organisation and its activities.
               Friends of 99s (FO99s) are eligible to register and attend all the
               99s International activities, excluding the annual business
-              meeting. You do not have to be a Pilot to become a FO99s!! <br />
+              meeting. <br />You do not have to be a Pilot to become a FO99s!! <br />
               So come, join us today!
             </h3>
 
