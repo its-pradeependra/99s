@@ -83,11 +83,11 @@ export default function Header () {
   ]
 
   return (
-    <header className='bg-white z-50 w-full bg-opacity-60 shadow-lg  backdrop-blur-sm  bg-white/30 fixed py-4'>
+    <header className='bg-white z-50 w-full bg-opacity-60 shadow-lg  backdrop-blur-sm  bg-white/30 fixed py-4 '>
       <nav className='mx-auto flex max-w-7xl items-center justify-between lg:px-8'>
-        <Link to={'/'} className='sm:w-[20%] w-full'>
+        <Link to={'/'} className='sm:w-[12%] w-[80%]'>
           <img
-            className='h-[7rem] w-'
+            className='h-20 sm:h-28 w-full'
             alt='99s'
             src={
               'https://firebasestorage.googleapis.com/v0/b/fir-india-77ae4.appspot.com/o/WebMaterial%2Flogo.png?alt=media&token=4331b693-7010-4879-83c0-335e7a7a7e52'
@@ -95,12 +95,12 @@ export default function Header () {
           />
         </Link>
         <div className='flex flex-col gap-2 items-center'>
-          <Link to={'/'} className='md:w-[50%] w-full'>
+          <Link to={'/'} className='sm:w-[50%] w-[80%]'>
             <img
               src={
                 'https://firebasestorage.googleapis.com/v0/b/fir-india-77ae4.appspot.com/o/WebMaterial%2FheaderImg.png?alt=media&token=096586ea-31e3-495b-b3ee-be00526d5721'
               }
-              className=' mx-auto w-[90%]'
+              className=' mx-auto w-[90%] sm:w-90' 
               alt=''
             />
           </Link>
