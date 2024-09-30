@@ -33,9 +33,11 @@
 }
 
 #quote {
-  font-family: 'Gowun Batang', serif;
-  font-weight: 700;
-  /* font-style: italic; */
+  font-family: 'Allura', system-ui;
+
+  font-optical-sizing: auto;
+  font-weight: 400;
+  
 }
 
 #marquee {

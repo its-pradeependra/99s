@@ -79,8 +79,8 @@ export default function Contact () {
             className='px-10  mx-auto'
           />
 
-          <h5 id='quote' className='text-md font-bold text-center italic'>
-            <span className='not-italic text-lg'>
+          <h5 id='quote' className='text-md text-center text-2xl'>
+            <span className='not-italic text-3xl'>
               Inspiring women pilots since 1976
             </span>{' '}
             <br />
