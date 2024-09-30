@@ -13,6 +13,7 @@ const Dashboard = lazy(() => import('./pages/Dashboard'))
 const EventView = lazy(() => import('./pages/EventView'))
 const Donate = lazy(() => import('./pages/Donate'))
 const MemberView = lazy(() => import('./pages/MemberView'))
+const FriendView = lazy(()=> import('./pages/FriendView'))
 const News_Event = lazy(() => import('./pages/News_Event'))
 const PageNotFound = lazy(() => import('./components/PageNotFound'))
 const ScrollToTop = lazy(() => import('./components/ScrollToTop'))
@@ -81,6 +82,7 @@ export default function App() {
           <Route path='/member' element={<Member />} />
           <Route path='/event/:eventId' element={<EventView />} />
           <Route path='/member/:memberId' element={<MemberView />} />
+          <Route path='/friend/:friendId' element={<FriendView />} />
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/donate' element={<Donate />} />

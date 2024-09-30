@@ -206,17 +206,17 @@ export default function Member () {
         <div>
           <div className='mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center'>
             <h2 className=' font-semibold text-3xl leading-[1.1] sm:text-2xl md:text-5xl'>
-              Friend's of
+              Friends of{" "}
               <span className='text-4xl md:text-6xl text-[#1252aa]'>99s</span>
             </h2>
 
-            <h3 className='max-w-[85%]   leading-normal sm:text-lg sm:leading-7 text-center'>
+            <h3 className='max-w-[85%]   leading-normal sm:text-lg sm:leading-7 text-center'> 
               A separate non-profit organisation called Friends of The 99s, was
               created to support the 99s organisation and its activities.
               Friends of 99s (FO99s) are eligible to register and attend all the
               99s International activities, excluding the annual business
-              meeting. You do not have to be a Pilot to become a FO99s!! So
-              come,join us today!
+              meeting. You do not have to be a Pilot to become a FO99s!! <br />
+              So come, join us today!
             </h3>
 
             <div className='text-center mb-10'>
